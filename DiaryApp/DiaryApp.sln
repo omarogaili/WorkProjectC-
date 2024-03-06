@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryApp", "DiaryApp\DiaryApp.csproj", "{E75706CF-64B8-4427-8403-451D6C2718B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryDataBase", "DiaryDataBase\DiaryDataBase.csproj", "{F89657E7-FF2A-446C-BAA4-8613F3025E03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryAppForms", "DiaryAppForms\DiaryAppForms.csproj", "{A583E736-8117-42CF-9E96-70AC1E4B0173}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiaryTest", "DiaryTest\DiaryTest.csproj", "{B4F326C7-713B-4B0A-AA62-FCEEEBFB5E44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignInFormDiary", "SignInFormDiary\SignInFormDiary.csproj", "{66ECBAD6-4653-4522-8915-F14253507EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiaryDashBord", "DiaryDashBord\DiaryDashBord.csproj", "{6F363706-630C-4367-9F75-6FAE91EC35B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E75706CF-64B8-4427-8403-451D6C2718B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75706CF-64B8-4427-8403-451D6C2718B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75706CF-64B8-4427-8403-451D6C2718B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75706CF-64B8-4427-8403-451D6C2718B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89657E7-FF2A-446C-BAA4-8613F3025E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89657E7-FF2A-446C-BAA4-8613F3025E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89657E7-FF2A-446C-BAA4-8613F3025E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89657E7-FF2A-446C-BAA4-8613F3025E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A583E736-8117-42CF-9E96-70AC1E4B0173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A583E736-8117-42CF-9E96-70AC1E4B0173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A583E736-8117-42CF-9E96-70AC1E4B0173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A583E736-8117-42CF-9E96-70AC1E4B0173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F326C7-713B-4B0A-AA62-FCEEEBFB5E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F326C7-713B-4B0A-AA62-FCEEEBFB5E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F326C7-713B-4B0A-AA62-FCEEEBFB5E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F326C7-713B-4B0A-AA62-FCEEEBFB5E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66ECBAD6-4653-4522-8915-F14253507EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ECBAD6-4653-4522-8915-F14253507EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ECBAD6-4653-4522-8915-F14253507EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66ECBAD6-4653-4522-8915-F14253507EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F363706-630C-4367-9F75-6FAE91EC35B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F363706-630C-4367-9F75-6FAE91EC35B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F363706-630C-4367-9F75-6FAE91EC35B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F363706-630C-4367-9F75-6FAE91EC35B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB142B31-6AB9-4D14-A49E-417626042C33}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DiaryDashBord/1.0.0": {
+        "runtime": {
+          "DiaryDashBord.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiaryDashBord/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

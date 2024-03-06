@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F363706-630C-4367-9F75-6FAE91EC35B1}|DiaryDashBord\\DiaryDashBord.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diarydashbord\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F363706-630C-4367-9F75-6FAE91EC35B1}|DiaryDashBord\\DiaryDashBord.csproj|solutionrelative:diarydashbord\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diarydatabase\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|solutionrelative:diarydatabase\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F363706-630C-4367-9F75-6FAE91EC35B1}|DiaryDashBord\\DiaryDashBord.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diarydashbord\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F363706-630C-4367-9F75-6FAE91EC35B1}|DiaryDashBord\\DiaryDashBord.csproj|solutionrelative:diarydashbord\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A583E736-8117-42CF-9E96-70AC1E4B0173}|DiaryAppForms\\DiaryAppForms.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diaryappforms\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A583E736-8117-42CF-9E96-70AC1E4B0173}|DiaryAppForms\\DiaryAppForms.csproj|solutionrelative:diaryappforms\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66ECBAD6-4653-4522-8915-F14253507EE9}|SignInFormDiary\\SignInFormDiary.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\signinformdiary\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66ECBAD6-4653-4522-8915-F14253507EE9}|SignInFormDiary\\SignInFormDiary.csproj|solutionrelative:signinformdiary\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75706CF-64B8-4427-8403-451D6C2718B1}|DiaryApp\\DiaryApp.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diaryapp\\konto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75706CF-64B8-4427-8403-451D6C2718B1}|DiaryApp\\DiaryApp.csproj|solutionrelative:diaryapp\\konto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diarydatabase\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|solutionrelative:diarydatabase\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\diarydatabase\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89657E7-FF2A-446C-BAA4-8613F3025E03}|DiaryDataBase\\DiaryDataBase.csproj|solutionrelative:diarydatabase\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66ECBAD6-4653-4522-8915-F14253507EE9}|SignInFormDiary\\SignInFormDiary.csproj|c:\\users\\admin\\onedrive\\desktop\\workc#\\diaryapp\\signinformdiary\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66ECBAD6-4653-4522-8915-F14253507EE9}|SignInFormDiary\\SignInFormDiary.csproj|solutionrelative:signinformdiary\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 996,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\User.cs",
+              "RelativeDocumentMoniker": "DiaryDataBase\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\User.cs",
+              "RelativeToolTip": "DiaryDataBase\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:37:12.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\Comment.cs",
+              "RelativeDocumentMoniker": "DiaryDataBase\\Comment.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\Comment.cs",
+              "RelativeToolTip": "DiaryDataBase\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:18:03.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\AppContext.cs",
+              "RelativeDocumentMoniker": "DiaryDataBase\\AppContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\AppContext.cs",
+              "RelativeToolTip": "DiaryDataBase\\AppContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:18:01.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "RelativeDocumentMoniker": "DiaryDashBord\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "RelativeToolTip": "DiaryDashBord\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:15:59.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Konto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryApp\\Konto.cs",
+              "RelativeDocumentMoniker": "DiaryApp\\Konto.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryApp\\Konto.cs",
+              "RelativeToolTip": "DiaryApp\\Konto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:19:01.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "RelativeDocumentMoniker": "DiaryDashBord\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs [Design]",
+              "RelativeToolTip": "DiaryDashBord\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T14:10:41.297Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignIn.cs",
+              "RelativeDocumentMoniker": "SignInFormDiary\\SignIn.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignIn.cs [Design]",
+              "RelativeToolTip": "SignInFormDiary\\SignIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T13:55:59.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignIn.cs",
+              "RelativeDocumentMoniker": "SignInFormDiary\\SignIn.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignIn.cs",
+              "RelativeToolTip": "SignInFormDiary\\SignIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T13:09:34.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InterFace.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryAppForms\\InterFace.cs",
+              "RelativeDocumentMoniker": "DiaryAppForms\\InterFace.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryAppForms\\InterFace.cs [Design]",
+              "RelativeToolTip": "DiaryAppForms\\InterFace.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:08:35.58Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
