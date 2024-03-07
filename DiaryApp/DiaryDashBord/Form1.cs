@@ -8,13 +8,21 @@ namespace DiaryDashBord
         public Dashbord()
         {
             InitializeComponent();
+          
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //User user = new User();
-            //user.userName = textBox1.Text;
+            LoadData();
 
         }
+        private void LoadData()
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DiaryApp";
+            SaveTheInfo save = new SaveTheInfo();
+            string userName = save.GetUserName(textBox1.Text, connectionString);
+            textBox1.Text = userName;
+        }
+
     }
 }

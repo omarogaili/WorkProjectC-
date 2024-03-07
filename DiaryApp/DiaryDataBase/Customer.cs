@@ -2,6 +2,8 @@
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -10,17 +12,12 @@ using System.Threading.Tasks;
 namespace DiaryDataBase
 {
     //här ärvs user username och user id från Konto. 
-    public class User: Konto
+    public class Customer: Konto
     {
-        //public User(string userName, int userId) : base(userName,userId)
-        //{
-        //    this.userName = userName;
-        //    this.Id = userId;
-        //}
         public string userName {  get; set; }
-        public int userId { get; set; }
-        public int passwordId { get; set; }
-        public int commentId { get; set; }
+        [Key]
+        public int Id { get; set; } //PK  for user
+
         public override bool IsvalidName(string name)
         {
             userName= name;

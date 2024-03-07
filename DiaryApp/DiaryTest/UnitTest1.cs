@@ -41,7 +41,7 @@ namespace DiaryTest
         public void GetTheBarCodeScaned_Contians_ASting(string barCode, bool expectedResult)
         {
             // Arrange
-            User sut = new User();
+            Customer sut = new Customer();
 
             // Act 
             var result = sut.IsvalidName(barCode);

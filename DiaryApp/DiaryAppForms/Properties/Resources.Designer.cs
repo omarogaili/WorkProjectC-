@@ -59,5 +59,15 @@ namespace DiaryAppForms.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap retro_anteckningsbok_dagbok__pdp_zoom_3000 {
+            get {
+                object obj = ResourceManager.GetObject("retro-anteckningsbok-dagbok--pdp_zoom-3000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

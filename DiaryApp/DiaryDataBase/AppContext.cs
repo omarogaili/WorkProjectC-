@@ -6,9 +6,9 @@ namespace DiaryDataBase
     public class AppContext : DbContext
     {
         //creating the tabels for the Diary database using SQL Server DbSet
-        public DbSet<User> users {  get; set; } // crate an object for the users collection
-        public DbSet<Password> passwords { get; set; }
-        public DbSet<Comment> comments { get; set; }
+        public DbSet<Customer> Customers {  get; set; } // crate an object for the users collection
+        public DbSet<Password> Passwords { get; set; }
+        public DbSet<Comment> Comments { get; set; }
         // sending the Connictionstring 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -11,11 +12,12 @@ namespace DiaryDataBase
     public class Password
     {
         public string password { get; set; }
-        public int passwordId { get; set; }
+        [Key]
+        public int PasswordID { get; set; }
 
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public User User { get; set; }
+        [ForeignKey("Customer")]
+        public int Id { get; set; }
+        public virtual Customer Customer { get; set; }
 
         public bool IsvalidPassWord(string passwordtest)
         {

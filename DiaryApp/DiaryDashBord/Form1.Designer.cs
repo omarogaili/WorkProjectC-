@@ -66,6 +66,6 @@
         #endregion
 
         private Label Show_username;
-        private TextBox textBox1;
+        public TextBox textBox1;
     }
 }

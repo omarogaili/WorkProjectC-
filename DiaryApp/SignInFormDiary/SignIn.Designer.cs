@@ -28,11 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             User_Name = new Label();
             user_name_in = new TextBox();
             password_in = new TextBox();
             Password_lab = new Label();
             Sign_up_btn = new Button();
+            Error_name = new Label();
+            btn_Login = new Button();
+            errorProvider1 = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // User_Name
@@ -78,7 +83,7 @@
             // 
             // Sign_up_btn
             // 
-            Sign_up_btn.Location = new Point(343, 330);
+            Sign_up_btn.Location = new Point(400, 301);
             Sign_up_btn.Name = "Sign_up_btn";
             Sign_up_btn.Size = new Size(158, 58);
             Sign_up_btn.TabIndex = 4;
@@ -86,11 +91,37 @@
             Sign_up_btn.UseVisualStyleBackColor = true;
             Sign_up_btn.Click += Sign_up_btn_Click;
             // 
+            // Error_name
+            // 
+            Error_name.AutoSize = true;
+            Error_name.Location = new Point(407, 167);
+            Error_name.Name = "Error_name";
+            Error_name.Size = new Size(131, 15);
+            Error_name.TabIndex = 5;
+            Error_name.Text = "Not available username";
+            Error_name.Visible = false;
+            // 
+            // btn_Login
+            // 
+            btn_Login.Location = new Point(400, 365);
+            btn_Login.Name = "btn_Login";
+            btn_Login.Size = new Size(158, 62);
+            btn_Login.TabIndex = 6;
+            btn_Login.Text = "Login";
+            btn_Login.UseVisualStyleBackColor = true;
+            btn_Login.Click += btn_Login_Click;
+            // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // Sign_Up
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_Login);
+            Controls.Add(Error_name);
             Controls.Add(Sign_up_btn);
             Controls.Add(Password_lab);
             Controls.Add(password_in);
@@ -99,6 +130,7 @@
             Name = "Sign_Up";
             Text = "SignUp";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -110,5 +142,8 @@
         private TextBox password_in;
         private Label Password_lab;
         private Button Sign_up_btn;
+        private Label Error_name;
+        private Button btn_Login;
+        private ErrorProvider errorProvider1;
     }
 }

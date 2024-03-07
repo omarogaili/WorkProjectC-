@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiaryDataBase.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20240306125325_initialcreate")]
-    partial class initialcreate
+    [Migration("20240307095222_DiaryMigration0.1")]
+    partial class DiaryMigration01
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,13 +26,13 @@ namespace DiaryDataBase.Migrations
 
             modelBuilder.Entity("DiaryDataBase.Comment", b =>
                 {
-                    b.Property<int>("commentId")
+                    b.Property<int>("CommentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("commentId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"));
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<string>("comment")
@@ -43,78 +43,72 @@ namespace DiaryDataBase.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("commentId");
+                    b.HasKey("CommentId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("Id");
 
-                    b.ToTable("comments");
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("DiaryDataBase.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("userName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("DiaryDataBase.Password", b =>
                 {
-                    b.Property<int>("passwordId")
+                    b.Property<int>("PasswordID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("passwordId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PasswordID"));
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("passwordId");
+                    b.HasKey("PasswordID");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("Id");
 
-                    b.ToTable("passwords");
-                });
-
-            modelBuilder.Entity("DiaryDataBase.User", b =>
-                {
-                    b.Property<int>("userId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("userId"));
-
-                    b.Property<int>("commentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("passwordId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("userName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("userId");
-
-                    b.ToTable("users");
+                    b.ToTable("Passwords");
                 });
 
             modelBuilder.Entity("DiaryDataBase.Comment", b =>
                 {
-                    b.HasOne("DiaryDataBase.User", "User")
+                    b.HasOne("DiaryDataBase.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("Customer");
                 });
 
             modelBuilder.Entity("DiaryDataBase.Password", b =>
                 {
-                    b.HasOne("DiaryDataBase.User", "User")
+                    b.HasOne("DiaryDataBase.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("Customer");
                 });
 #pragma warning restore 612, 618
         }
