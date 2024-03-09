@@ -11,10 +11,12 @@ namespace DiaryDataBase
     public class Comment
     {
         
-        public string title { get; set; }
-        public string  comment { get; set; }
+        public string title { get; set; } //titel
+        public string  comment { get; set; } // kommentaren som användaren ska lägga upp 
+        public DateTime CommentDate { get; set; } // lika med DateTime.Now för att få den kommentaren den datumet där kommentaren skrivs 
         [Key]
         public int CommentId { get; set; }
+        
 
         [ForeignKey("Customer")]
         public int Id { get; set; }

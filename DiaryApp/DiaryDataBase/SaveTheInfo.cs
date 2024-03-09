@@ -17,6 +17,7 @@ namespace DiaryDataBase
         {
             Customer customer = new Customer();
             Password password1 = new Password();
+            Comment coment = new Comment();
             //om username är rätt som jag vill ha så gå vidare och spara i databasen
             using (var _context = new AppContext())
             {
@@ -35,7 +36,28 @@ namespace DiaryDataBase
                 _context.Passwords.Add(pass);
                 pass.Id = user.Id;
                 _context.SaveChanges();
+
             }
+
+        }
+        public void SaveTheComment(string title,  string commentCurrent, DateTime dateTim, int customerId)
+        {
+            Comment coment= new Comment();
+            using (var  context = new AppContext())
+            {
+                var existingCustomer = context.Customers.Find(customerId);
+                var comment = new Comment()
+                {
+                    title = title,
+                    comment = commentCurrent,
+                    CommentDate = DateTime.Now,
+                    Id = customerId
+                };
+                
+                context.Comments.Add(comment);
+                context.SaveChanges();
+            }
+
         }
         public bool CheckingUserName(string username, string connectionString)
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignInFormDiary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+671528283bc9425fe1ca0cd4c13b9d1381eb5ece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a15349e053a70931f657413280fe396f20061e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignInFormDiary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignInFormDiary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
