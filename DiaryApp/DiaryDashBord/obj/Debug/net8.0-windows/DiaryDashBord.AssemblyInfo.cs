@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiaryDashBord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a15349e053a70931f657413280fe396f20061e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d2cc8dd0388bbaab2506ee5c7224bf36ae8447a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiaryDashBord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiaryDashBord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -40,25 +40,67 @@ namespace DiaryDataBase
             }
 
         }
-        public void SaveTheComment(string title,  string commentCurrent, DateTime dateTim, int customerId)
+        // för att jag ska kunna spara kommentaren från användaren så behövde jag göra en query för att jag ska få tillbaka user Idfrån customer
+        //alltså jag den metoden ska få en string Namn.
+        //metoden ska använda det namnet för att utföra den query i sql där den väljer Id från tabellen customer. 
+        // den gemför om det namnet som vi skickar till metoden finns sparade i databasen. finns det då  och det är typ 100% säkert den finns.
+        //så sparar jag Id nummret i ett variabel som heter customerId. och sedan så använder jag det värdet för att till dela i till Id kolumn
+        //som finns i tabellen Comments där jag hade problemet. 
+        // för att jag ska skicka in användare namnet utan att begära av användaren att skriva sitt namn efter att hen har lagat in 
+        // då valde jag att skicka in LoadData metoden som finns i from1.cs , eftersom den metoden använder GetUserName() metoden för att retunera 
+        // och skriva användarens namn efter att de har loggat in. så ja, på det sättet namnet som skickas in i den metoden är 100% true den finns i
+        //databasen. 
+        public void SaveTheComment(string title, string commentCurrent, DateTime dateTim, string userName, string connectionString)
         {
-            Comment coment= new Comment();
-            using (var  context = new AppContext())
+            int customerId = 0;
+            string _userName = userName;
+            string queryuser = "SELECT Id FROM Customers WHERE userName = @userName";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                var existingCustomer = context.Customers.Find(customerId);
-                var comment = new Comment()
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(queryuser, connection))
                 {
-                    title = title,
-                    comment = commentCurrent,
-                    CommentDate = DateTime.Now,
-                    Id = customerId
-                };
-                
-                context.Comments.Add(comment);
-                context.SaveChanges();
+                    command.Parameters.AddWithValue("@userName", _userName);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            customerId = reader.GetInt32(0);
+                        }
+                    }
+                }
             }
 
+            using (var context = new AppContext())
+            {
+                using (var transaction = context.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        var comment = new Comment()
+                        {
+                            title = title,
+                            comment = commentCurrent,
+                            CommentDate = DateTime.Now,
+                            Id = customerId
+                        };
+
+                        context.Comments.Add(comment);
+                        context.SaveChanges();
+
+                        transaction.Commit();
+                    }
+                    catch (Exception ex)
+                    {
+                        transaction.Rollback();
+                        throw ex;
+                    }
+                }
+            }
         }
+        //Kollar om användare namnet finns 
         public bool CheckingUserName(string username, string connectionString)
         {
             string _username = username;
@@ -81,7 +123,7 @@ namespace DiaryDataBase
                 }
             }
 
-            return false; // Returnera null om användarnamnet inte hittades i databasen
+            return false; // Returnera false om användarnamnet inte hittades i databasen
         }
         //för infromation om användaren.  
         public string GetUserName(string username, string connectionString)
@@ -137,6 +179,5 @@ namespace DiaryDataBase
 
             return false; // Om ingen match hittades  
         }
-
     }
 }

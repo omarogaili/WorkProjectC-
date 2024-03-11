@@ -86,7 +86,8 @@ namespace SignInFormDiary
             else
             {
                 errorProvider1.SetError(user_name_in, "Användaren kan inte Hittas! Skapa ett konto");
-
+                user_name_in.Text = "";
+                password_in.Text = "";
             }
         }
     }

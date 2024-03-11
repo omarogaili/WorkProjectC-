@@ -3133,24 +3133,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ogail\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignInFormDiary.csproj",
+      "projectUniqueName": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignInFormDiary.csproj",
       "projectName": "SignInFormDiary",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignInFormDiary.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\obj\\",
+      "projectPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\SignInFormDiary.csproj",
+      "packagesPath": "C:\\Users\\ogail\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\SignInFormDiary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ogail\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3164,11 +3159,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\DiaryDashBord.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\DiaryDashBord.csproj"
+            "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\DiaryDashBord.csproj": {
+              "projectPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\DiaryDashBord.csproj"
             },
-            "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\DiaryDataBase.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\DiaryDataBase.csproj"
+            "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\DiaryDataBase.csproj": {
+              "projectPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDataBase\\DiaryDataBase.csproj"
             }
           }
         }
