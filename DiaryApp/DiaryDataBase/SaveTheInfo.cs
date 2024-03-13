@@ -31,6 +31,11 @@ namespace DiaryDataBase
                 //om password är rätt som jag vill så spara den i database
                 //sedan spara password
 
+                //Sparar du lösenordet i klartext? Lösenord ska alltid (som minst) hashas med en säker algoritm.
+                //https://code-maze.com/csharp-hashing-salting-passwords-best-practices/
+                //https://andrewlock.net/exploring-the-asp-net-core-identity-passwordhasher/
+                //https://www.c-sharpcorner.com/article/how-to-write-secure-code-in-c-sharp/
+
                 var pass = new Password();
                 pass.password = password;
                 _context.Passwords.Add(pass);
@@ -54,6 +59,8 @@ namespace DiaryDataBase
         {
             int customerId = 0;
             string _userName = userName;
+
+            //Hanterar du SQL Injections? Vad händer om användaren kallar sig "Björn'; DROP TABLE Customers; --"?
             string queryuser = "SELECT Id FROM Customers WHERE userName = @userName";
 
             using (SqlConnection connection = new SqlConnection(connectionString))

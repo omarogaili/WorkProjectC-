@@ -32,6 +32,9 @@ using Xunit;
 
 namespace DiaryTest
 {
+    //Kan du döpa om den här klassen till något mer talande?
+    //"UnitTest1" säger inte så mycket om vad den gör.
+    //Kanske något i stil med "UserDataTests"?
     public class UnitTest1
     {
         [Theory]
@@ -54,6 +57,7 @@ namespace DiaryTest
         [InlineData("Omar", false)]
         [InlineData("O!m?rp1i", true)]
         [InlineData("", false)]
+        //Är "Omar2024" ett giltigt lösenord? "Omar#%2024"?
         public void GetPassword_Is_Valid_Tested(string barCode, bool expectedResult)
         {
             Password sutOne= new Password();

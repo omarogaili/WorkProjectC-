@@ -27,13 +27,14 @@ namespace DiaryDataBase
             {
                 if (!char.IsLetter(c))
                 {
-                    
+                    //Ska man inte få använda siffror? Ska Super_Student2024 vara ogiltigt?
                     return false;
                 }
             }
             if (string.IsNullOrEmpty(name))
             {
-                 
+                 //Kan du på något sätt se till att användaren får ett meddelande om VAD som är fel?
+                 //Typ "Du har angivit ett namn med blanktecken" eller "Namnet är för långt".
                 return false;
             }
             else if(name.Length >= 8 ) 
